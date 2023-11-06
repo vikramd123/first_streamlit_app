@@ -1,3 +1,4 @@
-import streamlit
+erimport streamlit
 streamlit.title('My parent new healthy diner')
-streamlit.Title ('Menu')
+streamlit.Header ('Breakfast Menu')
+streamlit.Text ('Omlet')

@@ -46,7 +46,7 @@ try:
       #fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
       #streamlit.dataframe(fruityvice_normalized)
 
-streamlit.header("The Fruite Load list contains:")
+      streamlit.header("The Fruite Load list contains:")
 #snowflake Function
 def get_fruite_load_list()
    with my_cnx.cursor() as my_cur 
